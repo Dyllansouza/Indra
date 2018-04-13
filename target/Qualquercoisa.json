@@ -1,0 +1,122 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: plobon@indracompany.com"
+      },
+      {
+        "line": 2,
+        "value": "# encoding: iso-8859-1"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Realizar uma Consulta",
+        "description": "",
+        "id": "alteração-de-autorização;realizar-uma-consulta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9774329673,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "testeRipley - Acessar a tela inicial",
+            "match": {
+              "location": "Teste.acessarPaginaInicial()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4133874129,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "TesteRipley - Clicar no link A",
+            "match": {
+              "location": "Teste.realizarBusca()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14725,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "testeRipley - Clicar no link B",
+            "match": {
+              "location": "Teste.escolherCarro()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11705,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "testeRipley - Clicar no link C",
+            "match": {
+              "location": "Teste.escolherSeguroDeCarro()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11328,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "testeRipley - Clicar no link D",
+            "match": {
+              "location": "Teste.escolherMarca()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13971,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "testeRipley - Clicar no link E",
+            "match": {
+              "location": "Teste.escolherModelo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14726,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "testeRipley - Clicar no link F",
+            "match": {
+              "location": "Teste.escolherModelo2()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@testeRipley"
+          }
+        ]
+      }
+    ],
+    "name": "Alteração de Autorização",
+    "description": "Eu como Usuário comum\r\nDesejo fazer qualquer coisa no site da Trivago",
+    "id": "alteração-de-autorização",
+    "keyword": "Feature",
+    "uri": "src/test/java/execution/testeRipley.feature"
+  }
+]
